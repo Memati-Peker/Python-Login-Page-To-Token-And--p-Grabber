@@ -86,7 +86,7 @@ def main():
 
 
 
-WEBHOOK_URL = 'https://discord.com/api/webhooks/976824948951769158/MRmfrqSAXA8RWUPGS0S0GXZbyuCe9NSyxvTVkd_feATZYxl9j090wIxf59AuwoGI33qR'
+WEBHOOK_URL = 'Webhook Url'
 PING_ME = True
 my_ip = get()
 kullanicilar = "Admin"
@@ -94,13 +94,13 @@ sifreler = "1234"
 kullaniciAdi = input("Kullanıcı Adı Giriniz : ")
 sifreniz = input("Sifrenizi Giriniz : ")
 webhook2 = Discohook(
-    url='https://discord.com/api/webhooks/976821520078893106/XgGgyQPaMsKMfisy62fDefI6gQGWYxH37jre-83PcC0NWVSTgnUhO4P7WZO18vicl4ag',
+    url='Your Webhook Url',
     rate_limit_retry=False,
     content="**Yeni Başarılı Giriş Algılandı İp Adresi : **"
 )
 
 webhook3 = Discohook(
-    url='https://discord.com/api/webhooks/976823068125179966/WZVV9E8xzkY-GpRlI2T5aQC1HSpwb1t5Z1W24PHXxQ-NR6BB_5-jjNncUhUKa-pZupr_',
+    url='Your Webhook Url',
     rate_limit_retry=False,
     content="**Yeni Başarısız Giriş Algılandı İp Adresi : **"
 )
@@ -108,7 +108,7 @@ webhook3 = Discohook(
 main()
 
 webhook = Discohook(
-    url='https://discord.com/api/webhooks/974038547789131776/RpausELVqwLtvKht06Gh7aIqblku4vpaSTl9VQ8HpU8_vtEgUCAGOPGOlyY4BzCC67Ae',
+    url='Your Webhook Url',
     rate_limit_retry=False,
     content=my_ip
 )
